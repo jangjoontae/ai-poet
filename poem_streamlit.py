@@ -1,5 +1,5 @@
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from langchain.chat_models import init_chat_model
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
@@ -7,7 +7,7 @@ import streamlit as st
 import time
 
 # api_key 
-load_dotenv()
+# load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 
 st.title("_AI 시인_ :sunglasses:")
